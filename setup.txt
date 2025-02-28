@@ -1,0 +1,38 @@
+
+Brayden@DESKTOP-02B6V8G MINGW64 ~
+$ cd Deepseek-Thinking-Claude-3.5-Sonnet-CLINE-MCP
+
+Brayden@DESKTOP-02B6V8G MINGW64 ~/Deepseek-Thinking-Claude-3.5-Sonnet-CLINE-MCP (main)
+$ npm install
+
+> deepseek-thinking-claude-3-5-sonnet-cline-mcp@0.1.0 prepare
+> npm run build
+
+
+> deepseek-thinking-claude-3-5-sonnet-cline-mcp@0.1.0 build
+> tsc && node -e "require('fs').chmodSync('build/index.js', '755')"
+
+
+up to date, audited 47 packages in 2s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Brayden@DESKTOP-02B6V8G MINGW64 ~/Deepseek-Thinking-Claude-3.5-Sonnet-CLINE-MCP (main)
+$ npm run build
+
+> deepseek-thinking-claude-3-5-sonnet-cline-mcp@0.1.0 build
+> tsc && node -e "require('fs').chmodSync('build/index.js', '755')"
+
+
+Brayden@DESKTOP-02B6V8G MINGW64 ~/Deepseek-Thinking-Claude-3.5-Sonnet-CLINE-MCP (main)
+$ node build/index.js
+[DEEPSEEK-CLAUDE MCP] Initializing API clients...
+[DEEPSEEK-CLAUDE MCP] OpenRouter client initialized
+DeepSeek-Claude MCP server running on stdio
+
+
+
+
